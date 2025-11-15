@@ -566,9 +566,46 @@ footer {
 
 /* Responsivo */
 @media (max-width: 768px) {
-    .menu {
+
+    /* Header mobile */
+    header {
+        padding: 0.5rem 0;
+    }
+
+    nav {
         flex-direction: column;
         gap: 1rem;
+        padding: 1rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+        width: 40px;
+        height: 40px;
+    }
+
+    .menu {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: center;
+    }
+
+    .menu a {
+        padding: 0.5rem 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    /* Hero mobile */
+    .hero {
+        padding: 100px 15px 60px;
+        margin-top: 0;
+    }
+
+    .profile-photo {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 1rem;
     }
 
     .hero-content h1 {
@@ -587,7 +624,79 @@ footer {
         width: 150px;
     }
 
-    .hero-buttons {
+    .project-header {
         flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .project-header h3 {
+        font-size: 1.2rem;
+    }
+
+    .project-card p {
+        font-size: 0.9rem;
+    }
+
+    /* Educação mobile */
+    .education-item {
+        padding: 1.5rem;
+    }
+
+    .education-item h3 {
+        font-size: 1.5rem;
+    }
+
+    .institution {
+        font-size: 1rem;
+    }
+
+    .disciplines li {
+        font-size: 0.9rem;
+        padding-left: 2rem;
+    }
+
+    /* Contato mobile */
+    .contact-subtitle {
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+
+    .contact-cta {
+        font-size: 0.95rem;
+        padding: 0 20px;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .contact-item {
+        padding: 1.5rem;
+    }
+
+    .contact-item h3 {
+        font-size: 1.1rem;
+    }
+
+    .contact-item a {
+        font-size: 0.95rem;
+    }
+
+    /* Títulos gerais mobile */
+    section h2 {
+        font-size: 1.8rem !important;
+        padding: 0 20px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    /* Footer mobile */
+    footer p {
+        font-size: 0.85rem;
+        padding: 0 20px;
     }
 }

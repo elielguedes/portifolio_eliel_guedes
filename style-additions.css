@@ -1,0 +1,81 @@
+/* Estilos adicionais para novos elementos */
+
+.hero-highlight {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.availability-badge {
+    display: inline-block;
+    background: rgba(0, 255, 0, 0.1);
+    color: #00ff00;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    border: 2px solid rgba(0, 255, 0, 0.3);
+    font-weight: 600;
+}
+
+/* Diferenciais */
+.differentials {
+    padding: 80px 20px;
+    background: #fff;
+}
+
+.differentials h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #1a1a2e;
+}
+
+.differentials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.differential-card {
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.differential-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.differential-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.differential-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+    color: #1a1a2e;
+}
+
+.differential-card p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.contact-cta {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    opacity: 0.95;
+}
+
+.contact-cta strong {
+    color: #fff;
+    font-size: 1.2rem;
+}
