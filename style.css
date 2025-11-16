@@ -322,7 +322,20 @@ nav {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 3rem;
-    color: #1a1a2e;
+    color: #00ff41;
+    font-family: 'Courier New', monospace;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.skills h2::before {
+    content: '[ ';
+    color: #00d9ff;
+}
+
+.skills h2::after {
+    content: ' ]';
+    color: #00d9ff;
 }
 
 /* Logos das Linguagens Principais */
@@ -395,12 +408,16 @@ nav {
 .language-card h3 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
-    color: #333;
+    color: #00ff41;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .language-card p {
-    color: #666;
-    font-size: 0.9rem;
+    color: #00d9ff;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 /* Grade de Habilidades */
@@ -412,18 +429,26 @@ nav {
 }
 
 .skill-category {
-    background: #fff;
+    background: transparent;
     padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #00d9ff;
+    transition: all 0.3s;
+}
+
+.skill-category:hover {
+    border-color: #00ff41;
+    background: rgba(0, 255, 65, 0.05);
 }
 
 .skill-category h3 {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
-    color: #1a1a2e;
-    border-bottom: 3px solid #1a1a2e;
+    color: #00ff41;
+    border-bottom: 3px solid #00ff41;
     padding-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Courier New', monospace;
 }
 
 .skill-category ul {
@@ -432,22 +457,31 @@ nav {
 
 .skill-category li {
     padding: 0.8rem 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid rgba(0, 217, 255, 0.2);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #e0e0e0;
+    font-size: 1.05rem;
 }
 
 .skill-category li:last-child {
     border-bottom: none;
 }
 
+.skill-name {
+    color: #fff;
+    font-weight: 500;
+}
+
 .skill-level {
     font-size: 0.85rem;
-    padding: 0.3rem 0.8rem;
-    background: #1a1a2e;
-    color: #fff;
-    border-radius: 15px;
+    padding: 0.4rem 1rem;
+    background: #00ff41;
+    color: #0a0a0a;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 /* Projetos */
