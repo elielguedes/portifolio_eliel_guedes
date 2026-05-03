@@ -1,4 +1,6 @@
-/* PROJETOS - DESIGN PROFISSIONAL DARK */
+/* =========================
+   PROJETOS - DESIGN LIMPO
+========================= */
 
 .projects {
     padding: 80px 20px;
@@ -7,88 +9,63 @@
 }
 
 .projects h2 {
-    font-size: 2.5rem;
     text-align: center;
-    margin-bottom: 3rem;
+    font-size: 2.5rem;
     color: #00ff41;
-    letter-spacing: 2px;
+    margin-bottom: 3rem;
 }
 
 /* GRID */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2rem;
+    gap: 25px;
 }
 
 /* CARD */
 .project-card {
-    background: #121212;
-    padding: 2rem;
-    border: 1px solid #1f1f1f;
-    border-left: 4px solid #00ff41;
-    border-radius: 8px;
-    transition: all 0.3s ease;
+    background: #1a1a1a; /* MAIS CLARO */
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #222;
+    transition: 0.3s;
 }
 
 /* HOVER */
 .project-card:hover {
     transform: translateY(-6px);
-    border-left: 4px solid #00d9ff;
-    box-shadow: 0 10px 25px rgba(0, 255, 65, 0.2);
+    border-color: #00ff41;
+    box-shadow: 0 0 20px rgba(0,255,65,0.15);
 }
 
-/* HEADER */
+/* TÍTULO */
 .project-card h3 {
     color: #00ff41;
     font-size: 1.4rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 10px;
 }
 
 /* DESCRIÇÃO */
 .project-card p {
-    color: #e6e6e6;
+    color: #ddd;
     font-size: 0.95rem;
-    line-height: 1.6;
-    margin-bottom: 1rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
 }
 
-/* STACK TAG */
-.project-tag {
+/* BOTÃO */
+.project-card a {
     display: inline-block;
-    font-size: 0.7rem;
-    background: rgba(0,255,65,0.1);
-    color: #00ff41;
-    padding: 4px 10px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-    border: 1px solid #00ff41;
-}
-
-/* LISTA */
-.project-features {
-    list-style: none;
-    margin-bottom: 1.2rem;
-}
-
-.project-features li {
-    color: #cfcfcf;
-    font-size: 0.85rem;
-    margin-bottom: 5px;
-}
-
-/* LINK */
-.project-link {
-    display: inline-block;
-    color: #00d9ff;
-    font-size: 0.85rem;
+    background: #00ff41;
+    color: #000;
+    padding: 8px 14px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 6px;
     text-decoration: none;
-    border-bottom: 1px solid #00d9ff;
-    padding-bottom: 2px;
-    transition: all 0.3s;
+    transition: 0.3s;
 }
 
-.project-link:hover {
-    color: #00ff41;
-    border-color: #00ff41;
+.project-card a:hover {
+    background: #00d9ff;
 }
