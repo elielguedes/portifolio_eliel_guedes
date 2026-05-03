@@ -1,11 +1,10 @@
-/* =========================
-   PROJETOS - DESIGN LIMPO
-========================= */
+/* ===================== */
+/* PROJETOS - CORRIGIDO */
+/* ===================== */
 
 .projects {
     padding: 80px 20px;
     background: #0a0a0a;
-    border-top: 1px solid #00ff41;
 }
 
 .projects h2 {
@@ -24,48 +23,70 @@
 
 /* CARD */
 .project-card {
-    background: #1a1a1a; /* MAIS CLARO */
-    padding: 25px;
-    border-radius: 10px;
-    border: 1px solid #222;
+    background: #121212; /* fundo mais claro */
+    border: 1px solid #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
     transition: 0.3s;
+    color: #ffffff;
 }
 
 /* HOVER */
 .project-card:hover {
     transform: translateY(-6px);
-    border-color: #00ff41;
-    box-shadow: 0 0 20px rgba(0,255,65,0.15);
+    border: 1px solid #00ff41;
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.15);
 }
 
-/* TÍTULO */
+/* TAG */
+.project-tag {
+    display: inline-block;
+    background: #00ff41;
+    color: #000;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+/* TITULO */
 .project-card h3 {
-    color: #00ff41;
     font-size: 1.4rem;
     margin-bottom: 10px;
+    color: #ffffff;
 }
 
 /* DESCRIÇÃO */
 .project-card p {
-    color: #ddd;
     font-size: 0.95rem;
+    color: #cfcfcf;
+    margin-bottom: 15px;
     line-height: 1.5;
+}
+
+/* LISTA */
+.project-features {
+    list-style: none;
+    padding-left: 0;
     margin-bottom: 15px;
 }
 
-/* BOTÃO */
-.project-card a {
-    display: inline-block;
-    background: #00ff41;
-    color: #000;
-    padding: 8px 14px;
+.project-features li {
     font-size: 0.9rem;
-    font-weight: bold;
-    border-radius: 6px;
-    text-decoration: none;
-    transition: 0.3s;
+    color: #aaaaaa;
+    margin-bottom: 5px;
 }
 
-.project-card a:hover {
-    background: #00d9ff;
+/* LINK */
+.project-link {
+    display: inline-block;
+    color: #00ff41;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.project-link:hover {
+    text-decoration: underline;
 }
