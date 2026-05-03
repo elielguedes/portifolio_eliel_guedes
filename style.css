@@ -1,4 +1,5 @@
-/* PROJETOS - FIX LEGIBILIDADE */
+/* PROJETOS - DESIGN PROFISSIONAL DARK */
+
 .projects {
     padding: 80px 20px;
     background: #0a0a0a;
@@ -22,52 +23,72 @@
 
 /* CARD */
 .project-card {
-    background: #111; /* MAIS CLARO QUE ANTES */
+    background: #121212;
     padding: 2rem;
-    border: 2px solid #00ff41;
-    transition: 0.3s;
-    color: #fff; /* TEXTO BRANCO FORTE */
+    border: 1px solid #1f1f1f;
+    border-left: 4px solid #00ff41;
+    border-radius: 8px;
+    transition: all 0.3s ease;
 }
 
 /* HOVER */
 .project-card:hover {
-    transform: translateY(-5px);
-    border-color: #00d9ff;
-    box-shadow: 0 0 15px rgba(0, 255, 65, 0.3);
+    transform: translateY(-6px);
+    border-left: 4px solid #00d9ff;
+    box-shadow: 0 10px 25px rgba(0, 255, 65, 0.2);
 }
 
-/* TÍTULO */
+/* HEADER */
 .project-card h3 {
     color: #00ff41;
     font-size: 1.4rem;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.5rem;
 }
 
 /* DESCRIÇÃO */
 .project-card p {
-    color: #f1f1f1; /* MAIS CLARO */
-    font-size: 1rem;
+    color: #e6e6e6;
+    font-size: 0.95rem;
     line-height: 1.6;
     margin-bottom: 1rem;
 }
 
+/* STACK TAG */
+.project-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    background: rgba(0,255,65,0.1);
+    color: #00ff41;
+    padding: 4px 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #00ff41;
+}
+
 /* LISTA */
+.project-features {
+    list-style: none;
+    margin-bottom: 1.2rem;
+}
+
 .project-features li {
-    color: #ddd;
-    font-size: 0.95rem;
+    color: #cfcfcf;
+    font-size: 0.85rem;
+    margin-bottom: 5px;
 }
 
 /* LINK */
-.project-card a {
+.project-link {
     display: inline-block;
-    margin-top: 1rem;
     color: #00d9ff;
-    font-weight: bold;
+    font-size: 0.85rem;
     text-decoration: none;
     border-bottom: 1px solid #00d9ff;
+    padding-bottom: 2px;
+    transition: all 0.3s;
 }
 
-.project-card a:hover {
+.project-link:hover {
     color: #00ff41;
     border-color: #00ff41;
 }

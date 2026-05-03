@@ -1,88 +1,3 @@
-```html
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eliel Guedes | Desenvolvedor Backend</title>
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style-additions.css">
-</head>
-
-<body>
-
-<header>
-    <nav>
-        <div class="logo">EG</div>
-        <ul class="menu">
-            <li><a href="#home">Início</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#skills">Habilidades</a></li>
-            <li><a href="#projects">Projetos</a></li>
-            <li><a href="#contact">Contato</a></li>
-        </ul>
-    </nav>
-</header>
-
-<section id="home" class="hero">
-    <div class="hero-content">
-        <img src="imagem/linkedin.jpg" class="profile-photo">
-        <h1>Eliel Guedes</h1>
-        <h2>Desenvolvedor Backend | Python • C • PHP • SQL</h2>
-        <p>🚀 Transformo ideias em soluções backend</p>
-
-        <div class="hero-buttons">
-            <a href="#contact" class="btn-primary">💼 Contratar</a>
-            <a href="#projects" class="btn-secondary">Projetos</a>
-        </div>
-
-        <div class="social-links">
-            <a href="https://github.com/elielguedes" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/eliel-guedes-70a65a348" target="_blank">LinkedIn</a>
-        </div>
-    </div>
-</section>
-
-<section id="about" class="about">
-    <div class="container">
-        <h2>Sobre Mim</h2>
-        <p>
-            Desenvolvedor Backend com foco em APIs REST, segurança e banco de dados.
-            Experiência com Python, C, PHP e SQL.
-        </p>
-    </div>
-</section>
-
-<section id="skills" class="skills">
-    <div class="container">
-        <h2>Habilidades</h2>
-
-        <div class="skill-category">
-            <h3>Linguagens</h3>
-            <ul>
-                <li>Python</li>
-                <li>C</li>
-                <li>PHP</li>
-                <li>SQL</li>
-                <li>JavaScript</li>
-                <li>HTML/CSS</li>
-            </ul>
-        </div>
-
-        <div class="skill-category">
-            <h3>Backend</h3>
-            <ul>
-                <li>FastAPI</li>
-                <li>Flask</li>
-                <li>APIs REST</li>
-                <li>JWT</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
 <section id="projects" class="projects">
     <div class="container">
         <h2>Projetos</h2>
@@ -90,61 +5,77 @@
         <div class="projects-grid">
 
             <div class="project-card">
-                <h3>API FastAPI</h3>
-                <p>API REST com FastAPI e validação de dados.</p>
-                <a href="https://github.com/elielguedes/Projeto-fastapi" target="_blank">Ver projeto</a>
+                <span class="project-tag">Python / FastAPI</span>
+                <h3>API REST com FastAPI</h3>
+                <p>Desenvolvimento de API REST com FastAPI, utilizando validação de dados, estrutura modular e documentação automática.</p>
+                <ul class="project-features">
+                    <li>Arquitetura REST</li>
+                    <li>Validação com Pydantic</li>
+                    <li>Documentação Swagger</li>
+                </ul>
+                <a href="https://github.com/elielguedes/Projeto-fastapi" target="_blank" class="project-link">Ver projeto →</a>
             </div>
 
             <div class="project-card">
+                <span class="project-tag">C++</span>
                 <h3>Sistema de Saúde</h3>
-                <p>Sistema em C++ focado em dados médicos.</p>
-                <a href="https://github.com/elielguedes/sistema-saude" target="_blank">Ver projeto</a>
+                <p>Sistema em C++ para gerenciamento de dados médicos, com foco em organização de registros e lógica aplicada.</p>
+                <ul class="project-features">
+                    <li>Manipulação de dados</li>
+                    <li>Estruturas de dados</li>
+                    <li>Lógica de negócio</li>
+                </ul>
+                <a href="https://github.com/elielguedes/sistema-saude" target="_blank" class="project-link">Ver projeto →</a>
             </div>
 
             <div class="project-card">
-                <h3>Banco de Dados SQL</h3>
-                <p>Modelagem com tabelas, joins e consultas.</p>
-                <a href="https://github.com/elielguedes/Banco-de-dados" target="_blank">Ver projeto</a>
+                <span class="project-tag">SQL</span>
+                <h3>SGBD Acadêmico</h3>
+                <p>Modelagem de banco de dados relacional com múltiplas entidades, chaves estrangeiras e consultas complexas.</p>
+                <ul class="project-features">
+                    <li>Modelo relacional</li>
+                    <li>JOINs e agregações</li>
+                    <li>Consultas analíticas</li>
+                </ul>
+                <a href="https://github.com/elielguedes/Banco-de-dados" target="_blank" class="project-link">Ver projeto →</a>
             </div>
 
             <div class="project-card">
+                <span class="project-tag">Python</span>
                 <h3>Projeto Python</h3>
-                <p>Lógica e manipulação de dados.</p>
-                <a href="https://github.com/elielguedes/project" target="_blank">Ver projeto</a>
+                <p>Aplicação com foco em lógica de programação e manipulação de dados, utilizando boas práticas de organização.</p>
+                <ul class="project-features">
+                    <li>Estruturas condicionais</li>
+                    <li>Manipulação de dados</li>
+                    <li>Organização de código</li>
+                </ul>
+                <a href="https://github.com/elielguedes/project" target="_blank" class="project-link">Ver projeto →</a>
             </div>
 
             <div class="project-card">
+                <span class="project-tag">C / C++</span>
                 <h3>Matriz e Vetor</h3>
-                <p>Operações matemáticas em C/C++.</p>
-                <a href="https://github.com/elielguedes/Matriz-vetor" target="_blank">Ver projeto</a>
+                <p>Implementação de operações matemáticas com foco em desempenho e uso eficiente de memória.</p>
+                <ul class="project-features">
+                    <li>Operações matriciais</li>
+                    <li>Performance</li>
+                    <li>Lógica matemática</li>
+                </ul>
+                <a href="https://github.com/elielguedes/Matriz-vetor" target="_blank" class="project-link">Ver projeto →</a>
             </div>
 
             <div class="project-card">
+                <span class="project-tag">C</span>
                 <h3>Pilha e Fila</h3>
-                <p>Estruturas de dados em C.</p>
-                <a href="https://github.com/elielguedes/pilha-fila" target="_blank">Ver projeto</a>
+                <p>Implementação de estruturas de dados fundamentais com controle manual de memória.</p>
+                <ul class="project-features">
+                    <li>FIFO / LIFO</li>
+                    <li>Alocação de memória</li>
+                    <li>Estruturas clássicas</li>
+                </ul>
+                <a href="https://github.com/elielguedes/pilha-fila" target="_blank" class="project-link">Ver projeto →</a>
             </div>
 
         </div>
     </div>
 </section>
-
-<section id="contact" class="contact">
-    <div class="container">
-        <h2>Contato</h2>
-
-        <p>Email: elielguedes817@gmail.com</p>
-        <p>Telefone: (61) 99318-2550</p>
-
-        <a href="https://github.com/elielguedes">GitHub</a>
-        <a href="https://www.linkedin.com/in/eliel-guedes-70a65a348">LinkedIn</a>
-    </div>
-</section>
-
-<footer>
-    <p>© 2026 Eliel Guedes</p>
-</footer>
-
-</body>
-</html>
-```
